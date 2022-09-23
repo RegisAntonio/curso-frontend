@@ -15,14 +15,14 @@ body {
 .main-container {
     max-width: 1198px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background: #ffffff;
     border-bottom: 1px solid #254159;
 }
@@ -31,11 +31,6 @@ h1 {
     font-size: 2.4rem;
     color: #254159;
     margin-bottom: 20px;
-}
-
-article img {
-    width: 100%;
-    height: 500px;
 }
 
 h2 {
@@ -69,13 +64,18 @@ p {
     color: #454545;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
     background-color: #ffffff;
     display: block;
     float: left;
     width: 100%;
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 10px;
 }
 
 section nav {
@@ -109,16 +109,56 @@ section article {
     width: 70%;
 }
 
+#tenho-interesse h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#tenho-interesse {
+    background-color: #335674;
+    width: 99%;
+}
+
+.cog-form__container {
+    background-color: #335674 !important;
+}
+
+.cog-heading {
+    color: #fff !important;
+    font-size: 25px !important;
+    margin-top: 20px !important;
+}
+
+.cog-label {
+    color: #fff !important;
+}
+
+.cog-content{
+    color: #fff !important;
+}
+
+#cog-0, #cog-1, #cog-2, #cog-3 {
+    border-radius: 10px;
+}
+
+.cognito {
+    height: 340px;
+    overflow: hidden !important;
+}
+
 footer {
     background-color: #254159;
     color: #ffffff;
     display: block;
     float: left;
     width: 100%;
+    height: 80px;
     text-align: center;
 }
 
 footer p {
+    padding: 20px;
     color: #ffffff;
     font-size: 1.4rem;
 }
@@ -126,6 +166,27 @@ footer p {
 footer small {
     display: block;
     font-size: 80%;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+    #tenho-interesse {
+        width: 95% !important;
+    }
+    .cognito {
+        height: 540px;
+        overflow: hidden !important;
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
 }
 
 
