@@ -168,4 +168,25 @@ footer small {
     font-size: 80%;
 }
 
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+    #tenho-interesse {
+        width: 95% !important;
+    }
+    .cognito {
+        height: 540px;
+        overflow: hidden !important;
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
 
